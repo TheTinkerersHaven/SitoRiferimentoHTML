@@ -3,6 +3,7 @@ body{
 }
 
 .title {
+    color: red;
     text-align: center;
 }
 
@@ -15,4 +16,20 @@ ul.navbar {
 
 li.navbar {
     display: inline;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
 }
